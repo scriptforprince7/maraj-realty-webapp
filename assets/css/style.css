@@ -28,6 +28,8 @@
     24. modal css here
 -----------------------------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Roboto:wght@400;700&display=swap');
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -60,7 +62,9 @@ body {
   font-style: normal;
   font-weight: 400;
   visibility: visible;
-  font-family: "Comic Neue", cursive;
+  /* font-family: "Comic Neue", cursive; */
+  font-family: 'Roboto', sans-serif;
+  /* font-weight: 100; */
   color: #000000;
   letter-spacing: 0.02em;
 }
@@ -73,13 +77,13 @@ h5,
 h6 {
   font-weight: 400;
   margin-top: 0;
-  font-family: "Comic Neue", cursive;
+  font-family: 'Playfair Display', serif;
 }
 
 h1 {
   font-size: 48px;
   line-height: 1;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 h2 {
@@ -493,7 +497,7 @@ textarea:-ms-input-placeholder {
 }
 .offcanvas_main_menu li a {
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: capitalize;
   display: block;
   padding-bottom: 12px;
@@ -696,7 +700,7 @@ textarea:-ms-input-placeholder {
   font-size: 18px;
   line-height: 42px;
   display: inline-block;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: capitalize;
   color: #000000;
 }
@@ -732,7 +736,7 @@ textarea:-ms-input-placeholder {
 .add_property a {
   font-size: 18px;
   line-height: 42px;
-  font-weight: 700;
+  font-weight: 400;
   display: inline-block;
   background: #202040;
   text-transform: capitalize;
@@ -802,7 +806,7 @@ textarea:-ms-input-placeholder {
   font-size: 21px;
   line-height: 42px;
   text-transform: capitalize;
-  font-weight: 700;
+  font-weight: 400;
   color: #000000;
   letter-spacing: 0.6px;
 }
@@ -834,7 +838,7 @@ textarea:-ms-input-placeholder {
 }
 .main_menu nav > ul > li ul.sub_menu li a {
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 400;
   display: block;
   line-height: 35px;
   text-transform: capitalize;
@@ -870,7 +874,7 @@ textarea:-ms-input-placeholder {
 }
 .multi_label_menu li a {
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 400;
   display: block;
   line-height: 35px;
   text-transform: capitalize;
@@ -1246,7 +1250,7 @@ textarea:-ms-input-placeholder {
   padding: 0;
   font-size: 18px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
   color: #fff;
   opacity: 0.54;
   position: relative;
@@ -1315,7 +1319,7 @@ textarea:-ms-input-placeholder {
 .slider_text h1 {
   font-size: 55px;
   line-height: 55px;
-  font-weight: 700;
+  font-weight: 400;
   margin-bottom: 0;
   color: #ffffff;
   padding: 6px 170px 15px;
@@ -1354,7 +1358,7 @@ textarea:-ms-input-placeholder {
   color: #ffffff;
 }
 .slider_text h3 span {
-  font-weight: 700;
+  font-weight: 400;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slider_text h3 {
@@ -1371,7 +1375,7 @@ textarea:-ms-input-placeholder {
 .slider_text a {
   font-size: 18px;
   line-height: 43px;
-  font-weight: 700;
+  font-weight: 400;
   padding: 0 19px;
   display: inline-block;
   background: #202040;
@@ -1715,7 +1719,7 @@ textarea:-ms-input-placeholder {
   padding: 0;
   font-size: 18px;
   line-height: 20px;
-  font-weight: 700;
+  /* font-weight: 400; */
   color: #202040;
   opacity: 0.54;
   position: relative;
@@ -1849,7 +1853,7 @@ textarea:-ms-input-placeholder {
   padding: 0;
   font-size: 18px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
   opacity: 0.54;
   position: relative;
@@ -2000,7 +2004,7 @@ textarea:-ms-input-placeholder {
 .question_text h4 {
   font-size: 13px;
   line-height: 22px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
   margin-bottom: 2px;
 }
@@ -2012,7 +2016,7 @@ textarea:-ms-input-placeholder {
 .question_text p a {
   font-size: 17px;
   line-height: 21px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ff5a5f;
   display: inline-block;
 }
@@ -2049,7 +2053,7 @@ textarea:-ms-input-placeholder {
 .slider_s_seven .single_slider {
   /* height: 780px; */
   /* height: 100vh; */
-  height: 580px;
+  height: 700px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .slider_s_seven .single_slider {
@@ -2116,8 +2120,8 @@ textarea:-ms-input-placeholder {
   }
 }
 .slider_text7 h1 {
-  font-size: 65px;
-  line-height: 65px;
+  font-size: 40px;
+  line-height: 50px;
   padding: 6px 0 15px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -2143,7 +2147,7 @@ textarea:-ms-input-placeholder {
   display: block;
   font-size: 40px;
   line-height: 48px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ffffff;
   margin-top: 20px;
   margin-bottom: 0;
@@ -2513,7 +2517,7 @@ textarea:-ms-input-placeholder {
 .find_house_text h2 {
   font-size: 40px;
   line-height: 46px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
   margin-bottom: 0;
   padding-right: 60px;
@@ -2622,7 +2626,7 @@ textarea:-ms-input-placeholder {
 .single_house_form .select_option span {
   font-size: 16px;
   line-height: 15px;
-  font-weight: 700;
+  font-weight: 400;
   color: #151515;
 }
 .single_house_form .select_option ul.list {
@@ -2664,7 +2668,7 @@ textarea:-ms-input-placeholder {
 .form_search_btn a {
   font-size: 18px;
   line-height: 40px;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: capitalize;
   color: #ffffff;
   padding: 0 36px;
@@ -2684,7 +2688,7 @@ textarea:-ms-input-placeholder {
 .advanced_search > a {
   font-size: 16px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
   color: #9c9c9c;
   text-decoration: underline;
   -webkit-transition: 0.3s;
@@ -2771,7 +2775,7 @@ textarea:-ms-input-placeholder {
 .advanced_filter_check label {
   font-size: 16px;
   line-height: 18px;
-  font-weight: 700;
+  font-weight: 400;
   color: #151515;
   display: inline-block;
   cursor: pointer;
@@ -2987,7 +2991,7 @@ textarea:-ms-input-placeholder {
 .form_slide_list .select_option span.current {
   font-size: 18px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ffffff;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -3195,7 +3199,7 @@ textarea:-ms-input-placeholder {
   margin-bottom: 0;
 }
 .find_house4_container .find_house_text h3 span {
-  font-weight: 700;
+  font-weight: 400;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .find_house4_container .find_house_text h3 {
@@ -3224,7 +3228,7 @@ textarea:-ms-input-placeholder {
 .find_house4_container .find_house_text h2 {
   font-size: 65px;
   line-height: 65px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
   margin: 12px 0;
   padding-right: 150px;
@@ -3712,7 +3716,7 @@ textarea:-ms-input-placeholder {
 .contact_agent_rank h3 {
   font-size: 24px;
   line-height: 30px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
   margin-bottom: 6px;
 }
@@ -3781,7 +3785,7 @@ textarea:-ms-input-placeholder {
   height: 48px;
   border-radius: 4px;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
   padding: 0 20px;
   margin-bottom: 25px;
@@ -3810,7 +3814,7 @@ textarea:-ms-input-placeholder {
   border: 1px solid #e2e2e2;
   border-radius: 4px;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
   padding: 20px;
   resize: none;
@@ -3828,7 +3832,7 @@ textarea:-ms-input-placeholder {
 
 .contact_agent_form button {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ffffff;
   border: 0;
   width: 124px;
@@ -3889,7 +3893,7 @@ textarea:-ms-input-placeholder {
 .contact_agent_number p {
   font-size: 18px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ff5a5f;
 }
 .contact_agent_number p a {
@@ -3920,7 +3924,7 @@ textarea:-ms-input-placeholder {
 .contact_agent_email p {
   font-size: 18px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ff5a5f;
 }
 .contact_agent_email p a {
@@ -3983,7 +3987,7 @@ textarea:-ms-input-placeholder {
   background: inherit;
   border-radius: 5px;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
   padding: 0 30px;
   margin-bottom: 40px;
@@ -4032,7 +4036,7 @@ textarea:-ms-input-placeholder {
   background: inherit;
   border-radius: 5px;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
   padding: 20px 30px;
   margin-bottom: 40px;
@@ -4218,7 +4222,7 @@ textarea:-ms-input-placeholder {
 .pricing_text h3 {
   font-size: 50px;
   line-height: 50px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
   letter-spacing: 2.5px;
   margin-bottom: 41px;
@@ -4289,7 +4293,7 @@ textarea:-ms-input-placeholder {
   height: 42px;
   line-height: 42px;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ffffff;
   background: #202040;
   text-align: center;
@@ -4336,7 +4340,7 @@ textarea:-ms-input-placeholder {
 .pricing_year_price span {
   font-size: 24px;
   line-height: 28px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ffffff;
 }
 @media only screen and (max-width: 767px) {
@@ -4412,7 +4416,7 @@ textarea:-ms-input-placeholder {
 .reliant_login_title h2 {
   font-size: 40px;
   line-height: 46px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
   margin-bottom: 12px;
 }
@@ -4433,7 +4437,7 @@ textarea:-ms-input-placeholder {
 .reliant_login_title p {
   font-size: 18px;
   line-height: 30px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -4592,7 +4596,7 @@ textarea:-ms-input-placeholder {
   height: 42px;
   line-height: 42px;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ffffff;
   background: #202040;
   text-align: center;
@@ -4614,7 +4618,7 @@ textarea:-ms-input-placeholder {
 .login_resigter a.next {
   font-size: 18px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
   color: #787878;
   text-decoration: underline;
   display: inline-block;
@@ -4808,7 +4812,7 @@ textarea:-ms-input-placeholder {
 .section_titile h2 {
   font-size: 40px;
   line-height: 46px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
   margin-bottom: 16px;
 }
@@ -4829,7 +4833,7 @@ textarea:-ms-input-placeholder {
 .section_titile p {
   font-size: 18px;
   line-height: 30px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
   padding: 0 38px;
 }
@@ -5131,7 +5135,7 @@ textarea:-ms-input-placeholder {
 .properties_content_top h3 {
   font-size: 24px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 400;
   margin-bottom: 0;
   padding-right: 15px;
 }
@@ -5161,7 +5165,7 @@ textarea:-ms-input-placeholder {
 .properties_content_top span {
   font-size: 24px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ff5a5f;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -5184,7 +5188,7 @@ textarea:-ms-input-placeholder {
 
 .properties_location p {
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 22px;
   color: #535353;
   margin-bottom: 0;
@@ -5214,7 +5218,7 @@ textarea:-ms-input-placeholder {
 .product_label span {
   font-size: 14px;
   line-height: 25px;
-  font-weight: 700;
+  font-weight: 400;
   color: #fff;
   width: 65px;
   height: 25px;
@@ -5271,7 +5275,7 @@ textarea:-ms-input-placeholder {
 .properties_filter_button ul.nav li a {
   font-size: 18px;
   line-height: 18px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
   margin-right: 40px;
 }
@@ -5338,7 +5342,7 @@ textarea:-ms-input-placeholder {
 .properties_slide.properties2 .properties_content h3 {
   font-size: 24px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 400;
   margin-bottom: 4px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
@@ -5582,7 +5586,7 @@ textarea:-ms-input-placeholder {
   margin-bottom: 0;
   line-height: 42px;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 400;
   color: #fff;
 }
 @media only screen and (max-width: 767px) {
@@ -5763,7 +5767,7 @@ textarea:-ms-input-placeholder {
 .section_titile4_left h2 {
   font-size: 40px;
   line-height: 46px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
   margin-bottom: 20px;
   padding-right: 45px;
@@ -5803,7 +5807,7 @@ textarea:-ms-input-placeholder {
   font-size: 18px;
   line-height: 30px;
   color: #535353;
-  font-weight: 700;
+  font-weight: 400;
   margin-bottom: 10px;
 }
 .section_titile4_left p:last-child {
@@ -5846,7 +5850,7 @@ textarea:-ms-input-placeholder {
 .properties4_content span {
   font-size: 40px;
   line-height: 46px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ff5a5f;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
@@ -5875,7 +5879,7 @@ textarea:-ms-input-placeholder {
 .properties4_content h3 {
   font-size: 24px;
   line-height: 36px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
   margin-bottom: 7px;
 }
@@ -5907,7 +5911,7 @@ textarea:-ms-input-placeholder {
 }
 .properties4_content p {
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 22px;
   color: #535353;
   margin-bottom: 0;
@@ -6101,7 +6105,7 @@ textarea:-ms-input-placeholder {
   padding: 0;
   font-size: 18px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
   opacity: 0.54;
   position: relative;
@@ -6182,21 +6186,21 @@ textarea:-ms-input-placeholder {
 .advice_propertie_text h3 {
   font-size: 18px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
   margin-bottom: 5px;
 }
 .advice_propertie_text p {
   font-size: 14px;
   line-height: 18px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
   margin-bottom: 6px;
 }
 .advice_propertie_text span {
   font-size: 18px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ff5a5f;
 }
 
@@ -6364,14 +6368,14 @@ textarea:-ms-input-placeholder {
 .exchange_p_text h3 {
   font-size: 24px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
   margin-bottom: 10px;
 }
 .exchange_p_text p {
   font-size: 14px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
   max-width: 260px;
 }
@@ -6557,7 +6561,7 @@ textarea:-ms-input-placeholder {
 .luxurious_title span {
   font-size: 14px;
   line-height: 16px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ff5a5f;
   margin-bottom: 10px;
   display: inline-block;
@@ -6565,7 +6569,7 @@ textarea:-ms-input-placeholder {
 .luxurious_title h2 {
   font-size: 40px;
   line-height: 46px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -6612,7 +6616,7 @@ textarea:-ms-input-placeholder {
   font-size: 18px;
   line-height: 30px;
   color: #535353;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .luxurious_button {
@@ -6696,7 +6700,7 @@ textarea:-ms-input-placeholder {
   font-size: 14px;
   line-height: 20px;
   color: #535353;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .amenities_container {
@@ -6813,7 +6817,7 @@ textarea:-ms-input-placeholder {
 .amenities_checkbox_list p {
   font-size: 24px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
   margin-bottom: 36px;
 }
@@ -6915,7 +6919,7 @@ textarea:-ms-input-placeholder {
 .floor_plan_content h2 {
   font-size: 40px;
   line-height: 46px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
   margin-bottom: 21px;
 }
@@ -6936,7 +6940,7 @@ textarea:-ms-input-placeholder {
 .floor_plan_content p {
   font-size: 18px;
   line-height: 30px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
   margin-bottom: 15px;
 }
@@ -6956,7 +6960,7 @@ textarea:-ms-input-placeholder {
 .floor_plan_content a {
   font-size: 18px;
   line-height: 42px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ffffff;
   display: inline-block;
   background: #202040;
@@ -7010,7 +7014,7 @@ textarea:-ms-input-placeholder {
 .floor_number p {
   font-size: 18px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
 }
 @media only screen and (max-width: 767px) {
@@ -7309,7 +7313,7 @@ textarea:-ms-input-placeholder {
 .feedback_content span {
   font-size: 14px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
 }
 
@@ -7479,7 +7483,7 @@ textarea:-ms-input-placeholder {
 .single_widget_form .select_option span.current {
   font-size: 18px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ffffff;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -7557,7 +7561,7 @@ textarea:-ms-input-placeholder {
 .featured_content h4 {
   font-size: 14px;
   line-height: 16px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
   margin-bottom: 0;
 }
@@ -7567,7 +7571,7 @@ textarea:-ms-input-placeholder {
 .featured_content span {
   font-size: 14px;
   line-height: 18px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ff5a5f;
   display: inline-block;
 }
@@ -7618,7 +7622,7 @@ textarea:-ms-input-placeholder {
 .properties_widget_agent .agents_content h4 {
   font-size: 14px;
   line-height: 16px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
   margin-bottom: 0;
 }
@@ -7686,7 +7690,7 @@ textarea:-ms-input-placeholder {
 .properties_details_content h3 {
   font-size: 40px;
   line-height: 46px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
   margin-bottom: 15px;
 }
@@ -7707,7 +7711,7 @@ textarea:-ms-input-placeholder {
 .properties_details_content span {
   font-size: 24px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ff5a5f;
   margin-bottom: 30px;
   display: inline-block;
@@ -7729,7 +7733,7 @@ textarea:-ms-input-placeholder {
 .properties_details_content p {
   font-size: 18px;
   line-height: 34px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
   letter-spacing: 0.1px;
 }
@@ -7756,7 +7760,7 @@ textarea:-ms-input-placeholder {
 .properties_details_amenities h3 {
   font-size: 24px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
   display: inline-block;
   text-decoration: underline;
@@ -7824,7 +7828,7 @@ textarea:-ms-input-placeholder {
 .properties_floorplan h3 {
   font-size: 24px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
   display: inline-block;
   text-decoration: underline;
@@ -7969,7 +7973,7 @@ textarea:-ms-input-placeholder {
 .page_amount p {
   font-size: 14px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
   color: #6d6d6d;
 }
 
@@ -7993,7 +7997,7 @@ textarea:-ms-input-placeholder {
 .properties_sortby .select_option span.current {
   font-size: 14px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
   color: #6d6d6d;
 }
 .properties_sortby .select_option::after {
@@ -8049,7 +8053,7 @@ textarea:-ms-input-placeholder {
 .properties_content.list_content h3 {
   font-size: 24px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
 }
 .properties_content.list_content h3 a:hover {
@@ -8064,7 +8068,7 @@ textarea:-ms-input-placeholder {
 .properties_content.list_content span {
   font-size: 24px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ff5a5f;
   margin-top: 16px;
   display: inline-block;
@@ -8080,7 +8084,7 @@ textarea:-ms-input-placeholder {
 .list_content_desc ul li {
   font-size: 14px;
   line-height: 16px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
   padding: 13px 0;
   border-bottom: 1px solid #d5d4d4;
@@ -8378,7 +8382,7 @@ textarea:-ms-input-placeholder {
   background: #ff5a5f;
   border-radius: 50px;
   color: #ffffff;
-  font-weight: 700;
+  font-weight: 400;
   height: 45px;
   line-height: 43px;
   margin: 0;
@@ -8419,7 +8423,7 @@ textarea:-ms-input-placeholder {
   background: #ff5a5f;
   border-radius: 50px;
   color: #ffffff;
-  font-weight: 700;
+  font-weight: 400;
   height: 45px;
   line-height: 43px;
   margin: 0;
@@ -8518,7 +8522,7 @@ textarea:-ms-input-placeholder {
   border: 1px solid #ff5a5f;
   padding: 10px 25px;
   border-radius: 50px;
-  font-weight: 700;
+  font-weight: 400;
 }
 .add-property-submit button:hover {
   background: #202040;
@@ -8588,7 +8592,7 @@ textarea:-ms-input-placeholder {
 .blog_content h3 {
   font-size: 24px;
   line-height: 28px;
-  font-weight: 700;
+  font-weight: 400;
   margin-bottom: 12px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -8613,7 +8617,7 @@ textarea:-ms-input-placeholder {
 .blog_content > a {
   font-size: 14px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
   display: inline-block;
 }
@@ -8634,7 +8638,7 @@ textarea:-ms-input-placeholder {
   font-size: 18px;
   line-height: 18px;
   color: #ff5a5f;
-  font-weight: 700;
+  font-weight: 400;
   text-decoration: underline;
 }
 .view_all_post a:hover {
@@ -9320,7 +9324,7 @@ textarea:-ms-input-placeholder {
 .footer_social h4 {
   font-size: 14px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
   color: #fff;
   margin-bottom: 16px;
   position: relative;
@@ -9482,7 +9486,7 @@ textarea:-ms-input-placeholder {
 .copyright_area p {
   font-size: 14px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
 }
 .copyright_area p a {
@@ -9595,7 +9599,7 @@ textarea:-ms-input-placeholder {
   height: 100%;
   font-size: 14px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -10079,7 +10083,7 @@ textarea:-ms-input-placeholder {
 .product_d_table table tbody tr td:first-child {
   border-right: 1px solid #ddd;
   width: 30%;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .product_d_inner {
@@ -10128,7 +10132,7 @@ textarea:-ms-input-placeholder {
 }
 .reviews_wrapper .product_ratting h3 {
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: capitalize;
 }
 
@@ -10696,7 +10700,7 @@ textarea:-ms-input-placeholder {
 .contact_title h2 {
   font-size: 40px;
   line-height: 46px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ffffff;
   margin-bottom: 16px;
 }
@@ -10717,7 +10721,7 @@ textarea:-ms-input-placeholder {
 .contact_title p {
   font-size: 18px;
   line-height: 30px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ffffff;
   padding: 0 323px;
 }
@@ -10827,7 +10831,7 @@ textarea:-ms-input-placeholder {
 .contact_location_list h3 {
   font-size: 24px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ffffff;
   margin-bottom: 12px;
 }
@@ -10847,7 +10851,7 @@ textarea:-ms-input-placeholder {
 .contact_location_list p {
   font-size: 18px;
   line-height: 30px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ffffff;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -10865,7 +10869,7 @@ textarea:-ms-input-placeholder {
 .contact_location_list a {
   font-size: 18px;
   line-height: 30px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ffffff;
   display: block;
 }
@@ -10907,7 +10911,7 @@ textarea:-ms-input-placeholder {
 .contact_form h3 {
   font-size: 40px;
   line-height: 56px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ffffff;
   margin-bottom: 61px;
 }
@@ -10954,7 +10958,7 @@ textarea:-ms-input-placeholder {
   background: inherit;
   color: #fff;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 400;
   padding: 0 15px;
   border-radius: 3px;
   margin-bottom: 35px;
@@ -10982,7 +10986,7 @@ textarea:-ms-input-placeholder {
   background: inherit;
   color: #fff;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 400;
   resize: none;
   padding: 20px 15px;
   border-radius: 3px;
@@ -11002,7 +11006,7 @@ textarea:-ms-input-placeholder {
   height: 40px;
   line-height: 40px;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
   text-align: center;
   background: #fff;
@@ -11086,7 +11090,7 @@ textarea:-ms-input-placeholder {
 .breadcrumbs_content h3 {
   font-size: 65px;
   line-height: 55px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ffffff;
   margin-bottom: 18px;
 }
@@ -11214,7 +11218,7 @@ textarea:-ms-input-placeholder {
 .dream_house_content_list span {
   font-size: 14px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ff5a5f;
   margin-bottom: 6px;
   display: inline-block;
@@ -11222,7 +11226,7 @@ textarea:-ms-input-placeholder {
 .dream_house_content_list h2 {
   font-size: 40px;
   line-height: 46px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
   margin-bottom: 17px;
   padding-right: 30px;
@@ -11253,7 +11257,7 @@ textarea:-ms-input-placeholder {
 .dream_house_content_list p {
   font-size: 18px;
   line-height: 30px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
   padding-right: 20px;
 }
@@ -11281,7 +11285,7 @@ textarea:-ms-input-placeholder {
 .dream_house_content_list h4 {
   font-size: 24px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ff5a5f;
   margin-bottom: 22px;
 }
@@ -11384,7 +11388,7 @@ textarea:-ms-input-placeholder {
 .agency_content h3 {
   font-size: 24px;
   line-height: 28px;
-  font-weight: 700;
+  font-weight: 400;
   margin-bottom: 4px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -11416,7 +11420,7 @@ textarea:-ms-input-placeholder {
 .agency_content p {
   font-size: 18px;
   line-height: 30px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ff5a5f;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -11474,7 +11478,7 @@ textarea:-ms-input-placeholder {
   border: 1px solid #e8e8e8;
   border-radius: 50%;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 400;
   color: #c4c4c4;
   display: inline-block;
 }
@@ -11654,7 +11658,7 @@ textarea:-ms-input-placeholder {
 .p_compani_title_left h3 {
   font-size: 40px;
   line-height: 40px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
   margin-bottom: 12px;
 }
@@ -11680,7 +11684,7 @@ textarea:-ms-input-placeholder {
 .p_compani_title_left p {
   font-size: 18px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
 }
 @media only screen and (max-width: 767px) {
@@ -11716,7 +11720,7 @@ textarea:-ms-input-placeholder {
 .property_compani_desc h4 {
   font-size: 24px;
   line-height: 30px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ff5a5f;
   margin-bottom: 11px;
 }
@@ -11730,7 +11734,7 @@ textarea:-ms-input-placeholder {
 .property_compani_desc p {
   font-size: 18px;
   line-height: 30px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
   padding-right: 98px;
 }
@@ -11769,7 +11773,7 @@ textarea:-ms-input-placeholder {
 .member_property p {
   font-size: 18px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
   margin-right: 30px;
   margin-bottom: 0;
@@ -11809,7 +11813,7 @@ textarea:-ms-input-placeholder {
 .property_email_skype p {
   font-size: 18px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
   margin-right: 30px;
   margin-bottom: 0;
@@ -11866,7 +11870,7 @@ textarea:-ms-input-placeholder {
   font-size: 40px;
   line-height: 85px;
   height: 85px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ffffff;
   padding: 0 24px;
   background: #202040;
@@ -11981,7 +11985,7 @@ textarea:-ms-input-placeholder {
 .fleming_content > h3 {
   font-size: 40px;
   line-height: 40px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
   margin-bottom: 14px;
 }
@@ -12085,7 +12089,7 @@ textarea:-ms-input-placeholder {
 .fleming_rating span {
   font-size: 18px;
   line-height: 30px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
   margin-right: 30px;
 }
@@ -12120,7 +12124,7 @@ textarea:-ms-input-placeholder {
 .fleming_call_center p {
   font-size: 24px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ff5a5f;
 }
 .fleming_call_center p a {
@@ -12187,7 +12191,7 @@ textarea:-ms-input-placeholder {
 .agent_form > h4 {
   font-size: 18px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ffffff;
   display: inline-block;
   text-decoration: underline;
@@ -12212,7 +12216,7 @@ textarea:-ms-input-placeholder {
 .agent_form input {
   font-size: 14px;
   line-height: 15px;
-  font-weight: 700;
+  font-weight: 400;
   color: #d5d5d5;
   height: 32px;
   width: 100%;
@@ -12225,7 +12229,7 @@ textarea:-ms-input-placeholder {
 .agent_form textarea {
   font-size: 14px;
   line-height: 15px;
-  font-weight: 700;
+  font-weight: 400;
   color: #d5d5d5;
   height: 118px;
   width: 100%;
@@ -12241,7 +12245,7 @@ textarea:-ms-input-placeholder {
   background: #c2c2cb;
   font-size: 14px;
   line-height: 30px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
   border: 0;
   border-radius: 3px;
@@ -12261,7 +12265,7 @@ textarea:-ms-input-placeholder {
 .overview_working_text h3 {
   font-size: 40px;
   line-height: 40px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
   margin-bottom: 16px;
 }
@@ -12288,7 +12292,7 @@ textarea:-ms-input-placeholder {
 .overview_working_text > p {
   font-size: 18px;
   line-height: 34px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
   margin-bottom: 17px;
   padding-right: 70px;
@@ -12340,7 +12344,7 @@ textarea:-ms-input-placeholder {
   display: flex;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
   margin-bottom: 22px;
   padding-right: 50px;
@@ -12550,7 +12554,7 @@ textarea:-ms-input-placeholder {
 .services_text h3 {
   font-size: 24px;
   line-height: 28px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -12571,7 +12575,7 @@ textarea:-ms-input-placeholder {
 .services_text p {
   font-size: 14px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
 }
 
@@ -12707,7 +12711,7 @@ textarea:-ms-input-placeholder {
 .choose_text h3 {
   font-size: 24px;
   line-height: 25px;
-  font-weight: 700;
+  font-weight: 400;
   margin-bottom: 8px;
   color: #202040;
 }
@@ -12728,7 +12732,7 @@ textarea:-ms-input-placeholder {
 .choose_text p {
   font-size: 14px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
   padding-right: 20px;
 }
@@ -12774,7 +12778,7 @@ textarea:-ms-input-placeholder {
 .counterup_text h2 {
   font-size: 70px;
   line-height: 70px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ff5a5f;
   margin-bottom: 6px;
 }
@@ -12805,7 +12809,7 @@ textarea:-ms-input-placeholder {
 .counterup_text p {
   font-size: 24px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -12866,7 +12870,7 @@ textarea:-ms-input-placeholder {
 .services_two .services_text > a {
   font-size: 14px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
   display: inline-block;
   color: #ff5a5f;
   text-decoration: underline;
@@ -12973,7 +12977,7 @@ textarea:-ms-input-placeholder {
 .agents_text h3 {
   font-size: 24px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 400;
   margin-bottom: 2px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -13002,7 +13006,7 @@ textarea:-ms-input-placeholder {
 .agents_text span {
   font-size: 14px;
   line-height: 16px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
 }
 
@@ -13214,7 +13218,7 @@ textarea:-ms-input-placeholder {
 .choose_position_text span {
   font-size: 40px;
   line-height: 46px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ff5a5f;
   position: relative;
   padding-bottom: 16px;
@@ -13271,7 +13275,7 @@ textarea:-ms-input-placeholder {
 .choose_position_text h3 {
   font-size: 24px;
   line-height: 36px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
   margin-bottom: 7px;
 }
@@ -13300,7 +13304,7 @@ textarea:-ms-input-placeholder {
 }
 .choose_position_text p {
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 22px;
   color: #535353;
   margin-bottom: 0;
@@ -13596,7 +13600,7 @@ textarea:-ms-input-placeholder {
 .choose_single_services .section_titile span {
   font-size: 14px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ff5a5f;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -13752,7 +13756,7 @@ textarea:-ms-input-placeholder {
 .blog_details_content h3 {
   font-size: 40px;
   line-height: 46px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
   margin-bottom: 13px;
 }
@@ -13799,7 +13803,7 @@ textarea:-ms-input-placeholder {
 .blog_details_content p {
   font-size: 17px;
   line-height: 34px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
   margin-bottom: 0;
 }
@@ -13849,7 +13853,7 @@ textarea:-ms-input-placeholder {
 .blog_d_tags span {
   font-size: 18px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ff5a5f;
   margin-right: 9px;
 }
@@ -13865,7 +13869,7 @@ textarea:-ms-input-placeholder {
 .blog_d_tags ul li a {
   font-size: 18px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
 }
 .blog_d_tags ul li a:hover {
@@ -13900,7 +13904,7 @@ textarea:-ms-input-placeholder {
 .blog_d_social span {
   font-size: 18px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ff5a5f;
   margin-right: 9px;
 }
@@ -13969,7 +13973,7 @@ textarea:-ms-input-placeholder {
 .comments_title h3 {
   font-size: 24px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
   display: inline-block;
   text-decoration: underline;
@@ -14046,7 +14050,7 @@ textarea:-ms-input-placeholder {
 .comments_content h4 {
   font-size: 24px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
   margin-bottom: 9px;
 }
@@ -14074,7 +14078,7 @@ textarea:-ms-input-placeholder {
 .comments_content p {
   font-size: 18px;
   line-height: 30px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
   margin-bottom: 3px;
 }
@@ -14118,7 +14122,7 @@ textarea:-ms-input-placeholder {
 .blog_details_form h3 {
   font-size: 24px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
   display: inline-block;
   text-decoration: underline;
@@ -14156,7 +14160,7 @@ textarea:-ms-input-placeholder {
 }
 .blog_details_form textarea {
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
   width: 100%;
   border: 1px solid rgba(142, 142, 142, 0.4);
@@ -14175,7 +14179,7 @@ textarea:-ms-input-placeholder {
 .blog_details_form button {
   font-size: 18px;
   line-height: 40px;
-  font-weight: 700;
+  font-weight: 400;
   color: #fff;
   width: 123px;
   height: 40px;
@@ -14216,7 +14220,7 @@ textarea:-ms-input-placeholder {
 }
 .blog_form_input input {
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
   width: 100%;
   border: 1px solid rgba(142, 142, 142, 0.4);
@@ -14299,7 +14303,7 @@ textarea:-ms-input-placeholder {
 .widget_title h3 {
   font-size: 24px;
   line-height: 26px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
   display: inline-block;
   text-decoration: underline;
@@ -14344,7 +14348,7 @@ textarea:-ms-input-placeholder {
   background: inherit;
   font-size: 14px;
   line-height: 15px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
   padding: 0 50px 0 20px;
   border-radius: 3px;
@@ -14382,7 +14386,7 @@ textarea:-ms-input-placeholder {
 .widget_categories > ul > li > a {
   font-size: 14px;
   line-height: 16px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
   display: block;
 }
@@ -14454,7 +14458,7 @@ textarea:-ms-input-placeholder {
 .post_content h4 {
   font-size: 18px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
   color: #202040;
   margin-bottom: 0;
 }
@@ -14475,7 +14479,7 @@ textarea:-ms-input-placeholder {
 .post_content > a {
   font-size: 14px;
   line-height: 15px;
-  font-weight: 700;
+  font-weight: 400;
   color: #535353;
 }
 .post_content > a:hover {
@@ -14507,7 +14511,7 @@ textarea:-ms-input-placeholder {
   font-size: 14px;
   height: 30px;
   line-height: 28px;
-  font-weight: 700;
+  font-weight: 400;
   color: #151515;
   border: 1px solid #aaaaaa;
   display: inline-block;
